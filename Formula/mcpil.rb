@@ -9,7 +9,7 @@ class Mcpil < Formula
   sha256 "1f9ae68b0737917ea7f683dc5e641c72fb218f85565431363f5eb3e68f28248b"
   license "GPL-2.0-or-later"
   depends_on "gamer4life1/mcpi-tap/mcpicentral"
-  depends_on "gamer4life1/mcpi-tap/python"
+  depends_on "gamer4life1/mcpi-tap/custompython"
   #depends_on "tcl-tk"
 
   # depends_on "cmake" => :build
