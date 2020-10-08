@@ -70,7 +70,6 @@ class Python < Formula
       --enable-framework=#{frameworks}
       --enable-loadable-sqlite-extensions
       --without-ensurepip
-      --with-dtrace
       --with-openssl=#{Formula["openssl@1.1"].opt_prefix}
     ]
 
