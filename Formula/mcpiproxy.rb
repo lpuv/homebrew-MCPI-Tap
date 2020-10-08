@@ -18,6 +18,7 @@ class Mcpiproxy < Formula
      system "mkdir -p /home/linuxbrew/.linuxbrew/Cellar/custompython/3.7.9/lib/python3.7/dist-packages"
      system "cp ./proxy.py /home/linuxbrew/.linuxbrew/Cellar/custompython/3.7.9/lib/python3.7/dist-packages/mcpip.py"
      system "chmod a+x /home/linuxbrew/.linuxbrew/Cellar/custompython/3.7.9/lib/python3.7/dist-packages/mcpip.py"
+     system "mkdir -p #{prefix}/bin"
      system "ln -s /home/linuxbrew/.linuxbrew/Cellar/custompython/3.7.9/lib/python3.7/dist-packages/mcpip.py #{prefix}/bin/mcpip"
   end
 
