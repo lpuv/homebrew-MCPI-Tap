@@ -17,6 +17,7 @@ class Mcpicentral < Formula
   def install
     system "mkdir -p /home/linuxbrew/.linuxbrew/Cellar/python@3.8/3.8.5/lib/python3.8/site-packages/mcpicentral/"
     system "cp -a ./src/. /home/linuxbrew/.linuxbrew/Cellar/python@3.8/3.8.5/lib/python3.8/site-packages"
+    system "cp -a ./src/. #{prefix}/lib
   end
 
   test do
