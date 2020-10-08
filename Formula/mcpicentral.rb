@@ -8,14 +8,15 @@ class Mcpicentral < Formula
   version "0.2.1"
   sha256 "78f32c898a215f29600a8848cde0a0af17b94e51aff99b57b565c0cea81ffcf0"
   license "GPL-2.0-or-later"
+  depends_on "python"
   #depends_on "gamer4life1/mcpi-tap/python"
   #depends_on "tcl-tk"
 
   # depends_on "cmake" => :build
 
   def install
-    system "mkdir -p #{prefix}/lib/python3.7/site-packages/mcpicentral/"
-    system "cp -a ./src/. #{prefix}/lib/python3.7/site-packages"
+    system "mkdir -p /home/linuxbrew/.linuxbrew/Cellar/python@3.8/3.8.5/lib/python3.8/site-packages/mcpicentral/"
+    system "cp -a ./src/. /home/linuxbrew/.linuxbrew/Cellar/python@3.8/3.8.5/lib/python3.8/site-packages"
   end
 
   test do
