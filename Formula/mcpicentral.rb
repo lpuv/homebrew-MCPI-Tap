@@ -15,7 +15,7 @@ class Mcpicentral < Formula
 
   def install
     system "mkdir -p #{prefix}/lib/python3.7/site-packages/mcpicentral/"
-    system "cp ./src/. #{prefix}/lib/python3.7/site-packages"
+    system "cp -a ./src/. #{prefix}/lib/python3.7/site-packages"
   end
 
   test do
