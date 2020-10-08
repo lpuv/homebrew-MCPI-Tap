@@ -36,7 +36,7 @@ class Python < Formula
   depends_on "readline"
   depends_on "sqlite"
   depends_on "xz"
-  depends_on "tcl/tk"
+  depends_on "tcl-tk"
 
   uses_from_macos "bzip2"
   uses_from_macos "libffi"
