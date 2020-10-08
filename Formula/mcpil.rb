@@ -4,7 +4,7 @@
 class Mcpil < Formula
   desc "Launcher for mcpi built in Python and C"
   homepage "https://github.com/MCPI-Devs/MCPIL"
-  url "https://github.com/MCPI-Devs/MCPIL/archive/master.zip"
+  url "https://github.com/MCPI-Devs/MCPIL/archive/v0.6.2.zip"
   version "0.6.2"
   sha256 "67fddc14b523bd89f0b18f76cbf1b4542460d84b7414db68d43a5906c0150df8"
   license "GPL-2.0-or-later"
