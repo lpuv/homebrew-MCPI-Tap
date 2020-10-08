@@ -13,9 +13,12 @@ class Mcpil < Formula
   # depends_on "cmake" => :build
 
   def install
-    system "cp ./src/mcpil.py #{prefix}/bin/"
-    system "cp ./src/mcpim.py #{prefix}/lib/python3/dist-packages/"
-    system "ln -s #{prefix}/lib/python3/dist-packages/mcpim.py #{prefix}/bin/mcpim"
+    system "mkdir #{prefix}/bin/"
+    system "cp ./src/mcpil.py #{prefix}/bin/mcpil"
+    #system "cp ./src/mcpim.py #{prefix}/lib/python3/dist-packages/"
+    system "cp ./src/mcpim.py #{prefix}/bin/mcpim"
+    system "chmod a+x #{prefix}/bin/mcpil"
+    system "chmod a+x #{prefix}/bin/mcpim"
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     #system "./configure", "--disable-debug",
