@@ -6,7 +6,7 @@ class Mcpil < Formula
   homepage "https://github.com/MCPI-Devs/MCPIL"
   url "https://github.com/MCPI-Devs/MCPIL/archive/v0.6.2.zip"
   version "0.6.2"
-  sha256 "67fddc14b523bd89f0b18f76cbf1b4542460d84b7414db68d43a5906c0150df8"
+  sha256 "1eeb8a10c3be6b57c2cc915f839fddb279380cd6f3462b312348c25331545a5b"
   license "GPL-2.0-or-later"
   depends_on "gamer4life1/mcpi-tap/python"
   depends_on "tcl-tk"
