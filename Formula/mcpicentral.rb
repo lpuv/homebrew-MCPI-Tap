@@ -8,7 +8,7 @@ class Mcpicentral < Formula
   version "0.2.1"
   sha256 "78f32c898a215f29600a8848cde0a0af17b94e51aff99b57b565c0cea81ffcf0"
   license "GPL-2.0-or-later"
-  depends_on "python"
+  depends_on "python@3.7"
   #depends_on "gamer4life1/mcpi-tap/python"
   #depends_on "tcl-tk"
 
