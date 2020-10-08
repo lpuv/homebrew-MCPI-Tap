@@ -9,6 +9,7 @@ class Mcpil < Formula
   sha256 "67fddc14b523bd89f0b18f76cbf1b4542460d84b7414db68d43a5906c0150df8"
   license "GPL-2.0-or-later"
   depends_on "python3"
+  depends_on "tcl-tk"
 
   # depends_on "cmake" => :build
 
