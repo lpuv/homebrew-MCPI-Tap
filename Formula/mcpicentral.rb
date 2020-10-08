@@ -14,7 +14,7 @@ class Mcpicentral < Formula
   # depends_on "cmake" => :build
 
   def install
-    system "#{prefix}/lib/python3.7/site-packages/mcpicentral/"
+    system "mkdir -p #{prefix}/lib/python3.7/site-packages/mcpicentral/"
     system "cp ./src/. #{prefix}/lib/python3.7/site-packages"
   end
 
